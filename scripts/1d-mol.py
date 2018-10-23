@@ -10,9 +10,10 @@ import re
 nombrerand = random.randint(0,100)
 saisie = -1  
 print(nombrerand) 
+note_regex = re.compile('^(([0-9])|(1[9-0])|20)$') 
 
 def VerifSaisie(saisie): 
-	if (re.match('^[0-9]+$',saisie)):
+	if(note-regex.match(note1):
 		saisie = int(saisie) 
 		if (saisie > 100):
 			return False 		
@@ -21,9 +22,9 @@ def VerifSaisie(saisie):
 	else : 
 		return False
 
-def SaisieSortie(saisie): 
-	if (saisie == q or saisie == Q) : 
-		exit()  
+#def SaisieSortie(saisie): 
+#	if saisie)== q or saisie == Q) : 
+#		exit()  
 
 while (saisie != nombrerand):
 	while (VerifSaisie(saisie) == False) : 
