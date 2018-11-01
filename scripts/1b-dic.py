@@ -10,10 +10,10 @@ saisie=0
 while saisie != "q" : 
 	saisie = input("Entre un prénom : ")
 	ma_liste.append(saisie) 
-	print(ma_liste)
+
+print(sorted(ma_liste)) #Liste les prénoms par ordre alphabétique
+	 
  
-#ma_liste.sort() 
-#ma_liste
 
 
  
