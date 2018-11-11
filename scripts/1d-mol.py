@@ -31,9 +31,9 @@ def Goodbay():
 #		return False
 
 
-def SaisieSortie(saisie): 
-	if (str(saisie) == q or str(saisie) == Q) : 
-		exit()  
+#def SaisieSortie(saisie): 
+#	if (str(saisie) == q or str(saisie) == Q) : 
+#		exit()  
 
 
 
@@ -42,12 +42,12 @@ while (int(saisie) != nombrerand):
 	if (int(saisie) < nombrerand): 
 		print("C'est plus grand")
 		saisie = input("Entre un nouveau nombre : ")
-		SaisieSortie(saisie) 
+	#	SaisieSortie(saisie) 
 	elif (int(saisie) > nombrerand):
 		print("C'est plus petit")  
-		saisie = input("Etre un nouveau nombre : ")
-		SaisieSortie(saisie)  
-print("Gachné ! La réponse était : " + str(nombrerand))  
+		saisie = input("Entre un nouveau nombre : ")
+#		SaisieSortie(saisie)  
+print("Gagné ! La réponse était : " + str(nombrerand))  
 
 
 
